@@ -6,6 +6,8 @@ class DeliveryCentre < ApplicationRecord
 	validates :latitude , presence: true
 	validates :longitude, presence: true
 
+	has_many :orders
+
 
 	def self.get_all_delivery_centres
 		delivery_centres = DeliveryCentre.all
