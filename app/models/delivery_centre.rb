@@ -11,4 +11,8 @@ class DeliveryCentre < ApplicationRecord
 		delivery_centres = DeliveryCentre.all
 	end
 
+	def self.get_latitude_longitude
+		latitude_longitude = DeliveryCentre.select(:name, :latitude, :longitude).all
+	end
+
 end
