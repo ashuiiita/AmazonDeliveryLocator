@@ -15,17 +15,18 @@ for x in UsersArray do
 	user.save
 end
 
-deliveryCentreArray = [{"name" => "Amazon delivery center 1", "description" => "gachibowli", "address" => "601 West Street_601 West 5th Avenue_Anchorage, Alaska 99501_907-277-2477", "latitude" => 17.418590, "longitude" => 78.401203},
-					   {"name" => "Amazon delivery center 2", "description" => "gachibowli", "address" => "601 West Street_601 West 5th Avenue_Anchorage, Alaska 99501_907-277-2477", "latitude" => 17.438722, "longitude" => 78.411203},
-					   {"name" => "Amazon delivery center 3", "description" => "gachibowli", "address" => "601 West Street_601 West 5th Avenue_Anchorage, Alaska 99501_907-277-2477", "latitude" => 17.446357, "longitude" => 78.401113},
-					   {"name" => "Amazon delivery center 4", "description" => "gachibowli", "address" => "601 West Street_601 West 5th Avenue_Anchorage, Alaska 99501_907-277-2477", "latitude" => 17.456277, "longitude" => 78.401947},
-					   {"name" => "Amazon delivery center 5", "description" => "gachibowli", "address" => "601 West Street_601 West 5th Avenue_Anchorage, Alaska 99501_907-277-2477", "latitude" => 17.409387, "longitude" => 78.411243},
-					   {"name" => "Amazon delivery center 6", "description" => "gachibowli", "address" => "601 West Street_601 West 5th Avenue_Anchorage, Alaska 99501_907-277-2477", "latitude" => 17.419999, "longitude" => 78.444203},
-					   {"name" => "Amazon delivery center 7", "description" => "gachibowli", "address" => "601 West Street_601 West 5th Avenue_Anchorage, Alaska 99501_907-277-2477", "latitude" => 17.428722, "longitude" => 78.478347},
-					   {"name" => "Amazon delivery center 8", "description" => "gachibowli", "address" => "601 West Street_601 West 5th Avenue_Anchorage, Alaska 99501_907-277-2477", "latitude" => 17.489383, "longitude" => 78.444203},
-					   {"name" => "Amazon delivery center 9", "description" => "gachibowli", "address" => "601 West Street_601 West 5th Avenue_Anchorage, Alaska 99501_907-277-2477", "latitude" => 17.468722, "longitude" => 78.410000},
-					   {"name" => "Amazon delivery center 10", "description" => "gachibowli", "address" => "601 West Street_601 West 5th Avenue_Anchorage, Alaska 99501_907-277-2477", "latitude" => 17.458722, "longitude" => 78.406353}
+deliveryCentreArray = [{"name" => "Amazon delivery center 1", "description" => "gachibowli", "address" => "601 West Street_601 West 5th Avenue_Anchorage, Alaska 99501_907-277-2477", "latitude" => 17.443631, "longitude" => 78.3717403},
+					   {"name" => "Amazon delivery center 2", "description" => "gachibowli", "address" => "601 West Street_601 West 5th Avenue_Anchorage, Alaska 99501_907-277-2477", "latitude" => 17.444473, "longitude" => 78.37357},
+					   {"name" => "Amazon delivery center 3", "description" => "gachibowli", "address" => "601 West Street_601 West 5th Avenue_Anchorage, Alaska 99501_907-277-2477", "latitude" => 17.4470359, "longitude" => 78.3755854},
+					   {"name" => "Amazon delivery center 4", "description" => "gachibowli", "address" => "601 West Street_601 West 5th Avenue_Anchorage, Alaska 99501_907-277-2477", "latitude" => 17.4470359, "longitude" => 78.3755854},
+					   {"name" => "Amazon delivery center 5", "description" => "gachibowli", "address" => "601 West Street_601 West 5th Avenue_Anchorage, Alaska 99501_907-277-2477", "latitude" => 17.4430844, "longitude" => 78.3691648},
+					   {"name" => "Amazon delivery center 6", "description" => "gachibowli", "address" => "601 West Street_601 West 5th Avenue_Anchorage, Alaska 99501_907-277-2477", "latitude" => 17.437998, "longitude" => 78.3684484},
+					   {"name" => "Amazon delivery center 7", "description" => "gachibowli", "address" => "601 West Street_601 West 5th Avenue_Anchorage, Alaska 99501_907-277-2477", "latitude" => 17.4377595, "longitude" => 78.3771122},
+					   {"name" => "Amazon delivery center 8", "description" => "gachibowli", "address" => "601 West Street_601 West 5th Avenue_Anchorage, Alaska 99501_907-277-2477", "latitude" => 17.4449009, "longitude" => 78.3679363},
+					   {"name" => "Amazon delivery center 9", "description" => "gachibowli", "address" => "601 West Street_601 West 5th Avenue_Anchorage, Alaska 99501_907-277-2477", "latitude" => 17.4491714, "longitude" => 78.3719648},
+					   {"name" => "Amazon delivery center 10", "description" => "gachibowli", "address" => "601 West Street_601 West 5th Avenue_Anchorage, Alaska 99501_907-277-2477", "latitude" => 17.4487364, "longitude" => 78.3715195}
 					  ]
+
 
 for x in deliveryCentreArray do
 	center = DeliveryCentre.new
