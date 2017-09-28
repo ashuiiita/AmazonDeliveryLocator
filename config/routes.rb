@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   get '/deliveryCentres/all' , to: 'delivery_centres#get_all_delivery_centres'
   get '/deliveryCentres/latitudeLongitude' , to: 'delivery_centres#get_latitude_longitude'
   get '/user/:id/allOrders' , to: 'users#getOrders'
+  post '/user/:id/prioritySetup' , to: 'orders#prioritySetup'
 end

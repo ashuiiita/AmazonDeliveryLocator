@@ -6,4 +6,21 @@ class Order < ApplicationRecord
 
   belongs_to :user
   belongs_to :delivery_centre
+
+  def self.updatePriority(priorityOrder,userId)
+  	finalStatus = false
+  	Order.transaction do
+  		begin
+  			for order in priorityOrder do
+  				userOrder = Order.where(:user_id => userId , :id => order["order_id"]).first			
+				userOrder.priority = order["priority"].to_i
+				userOrder.save
+			end
+		rescue
+			finalStatus
+		end
+	end
+	finalStatus = true
+	finalStatus
+  end		
 end
