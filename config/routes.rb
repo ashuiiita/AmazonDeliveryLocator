@@ -4,6 +4,6 @@ Rails.application.routes.draw do
   get '/deliveryCentres/latitudeLongitude' , to: 'delivery_centres#get_latitude_longitude'
   get '/user/:id/allOrders' , to: 'users#getOrders'
   post '/user/:id/prioritySetup' , to: 'orders#prioritySetup'
-  get '/deliveryCentres/userid=:userid&latitude=:latitude&longitude=:longitude' , to: 'delivery_centres#get_min_distance'
+  get '/user/:id/getClosestDeliveryCentre' , to: 'delivery_centres#get_min_distance'
 
 end

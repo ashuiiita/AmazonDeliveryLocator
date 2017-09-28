@@ -1,5 +1,4 @@
 class Order < ApplicationRecord
-<<<<<<< HEAD
   validates :name , presence: true
   validates :user_id , presence: true
   validates :delivery_centre_id , presence: true
@@ -25,8 +24,8 @@ class Order < ApplicationRecord
 	finalStatus
   end		
 
-	def retrieve_orders(userid)
-		requiredOrders = Order.where ( user_id: userid).all
+	def self.retrieve_orders(userid)
+		requiredOrders = Order.where( user_id: userid).all
 	end
 
 end
