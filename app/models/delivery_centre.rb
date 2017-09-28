@@ -17,4 +17,6 @@ class DeliveryCentre < ApplicationRecord
 		latitude_longitude = DeliveryCentre.select(:name, :latitude, :longitude).all
 	end
 
+	
+
 end
